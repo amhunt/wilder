@@ -1,0 +1,186 @@
+{
+  "development": {
+    "networkName": "development",
+    "networkLocation": {
+      "host": "127.0.0.1",
+      "port": 8545,
+      "network_id": "1518950506697"
+    },
+    "contractName": "WilderStake",
+    "abi": [
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "_projectId",
+            "type": "uint256"
+          }
+        ],
+        "name": "vote",
+        "outputs": [],
+        "payable": true,
+        "stateMutability": "payable",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "projectFunding",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256[]"
+          },
+          {
+            "name": "",
+            "type": "bool[]"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "_projectId",
+            "type": "uint256"
+          }
+        ],
+        "name": "finalizeProject",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "owner",
+        "outputs": [
+          {
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "totalRaised",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "_name",
+            "type": "string"
+          },
+          {
+            "name": "_totalToRaise",
+            "type": "uint256"
+          },
+          {
+            "name": "_beneficiary",
+            "type": "address"
+          }
+        ],
+        "name": "addProject",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [],
+        "name": "donate",
+        "outputs": [],
+        "payable": true,
+        "stateMutability": "payable",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "",
+            "type": "address"
+          },
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "name": "votesPerPerson",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": true,
+            "name": "previousOwner",
+            "type": "address"
+          },
+          {
+            "indexed": true,
+            "name": "newOwner",
+            "type": "address"
+          }
+        ],
+        "name": "OwnershipTransferred",
+        "type": "event"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "newOwner",
+            "type": "address"
+          }
+        ],
+        "name": "transferOwnership",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ],
+    "compiler": {
+      "name": "solc",
+      "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
+    },
+    "schemaVersion": "1.0.1",
+    "updatedAt": "2018-02-18T10:41:42.671Z",
+    "address": "0xf84b8b3823f4654cd3efaf56646b7cea266abeef",
+    "network_id": "1518950506697"
+  }
+}
